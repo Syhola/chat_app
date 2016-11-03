@@ -36,7 +36,7 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain
   # config.action_cable.mount_path = nil
-  config.action_cable.url = 'wss://pure-island-46354.herokuapp.com/cable'
+  config.action_cable.url = 'ws://pure-island-46354.herokuapp.com/cable'
   # config.action_cable.allowed_request_origins = [ 'https://pure-island-46354.herokuapp.com', 'http://pure-island-46354.herokuapp.com' ]
   config.action_cable.disable_request_forgery_protection = true
 
